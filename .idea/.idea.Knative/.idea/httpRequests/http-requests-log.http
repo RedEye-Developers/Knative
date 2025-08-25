@@ -1,0 +1,36 @@
+﻿GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-24T201054.400.txt
+
+###
+
+GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-24T201049.400.txt
+
+###
+
+GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-24T200948.400.txt
+
+###
+
+GET http://localhost:5000
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2025.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-24T200942.400.txt
+
+###
+
