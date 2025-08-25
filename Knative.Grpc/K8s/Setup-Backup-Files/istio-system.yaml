@@ -1,0 +1,19 @@
+apiVersion: operator.knative.dev/v1beta1
+kind: KnativeServing
+metadata:
+  name: knative-serving
+  namespace: knative-serving
+spec:
+  # ...
+  config:
+    istio:
+      local-gateways: |
+        - name: knative-local-gateway
+          namespace: istio-system
+          service: knative-local-gateway.istio-system.svc.cluster.local
+        
+# Reason from Backup this file :
+# In Knative Doc they not define the namespace and service for the local-gateways
+        
+# namespace : <istio network namespace>
+# service : knative-local-gateway.<istio network namespace>.svc.cluster.local

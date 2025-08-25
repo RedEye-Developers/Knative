@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: knative-local-gateway
+  namespace: istio-system
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*"
+          
+# kubectl logs -n knative-serving -l app=net-istio-controller -c controller
+# "message":"Failed to reconcile Ingress".
+# if this error message was came apply this file to fix it.
