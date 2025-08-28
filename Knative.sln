@@ -3,8 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knative.Grpc", "Knative.Grpc\Knative.Grpc.csproj", "{5327EADF-D7FE-45C0-8422-35EEB411D073}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{2086D48C-E2CD-4B1E-8BA5-3956BC9F6D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knative.Api", "Knative.Api\Knative.Api.csproj", "{1A14B634-FE32-4A77-AFC7-476D2BC67D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knative", "Knative", "{A340D4E5-37FF-4E43-A77A-419FB3404902}"
 	ProjectSection(SolutionItems) = preProject
 		serving.knative.dev.yaml = serving.knative.dev.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{6D4F80ED-67B6-4601-A623-66771092867E}"
+	ProjectSection(SolutionItems) = preProject
+		knative-serving.yaml = knative-serving.yaml
+		knative-local-gateway.yaml = knative-local-gateway.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Istio", "Istio", "{9BB5B098-7A9C-4B76-99B9-F49012776576}"
+	ProjectSection(SolutionItems) = preProject
+		PeerAuthentication.yaml = PeerAuthentication.yaml
+		istio-system.yaml = istio-system.yaml
 	EndProjectSection
 EndProject
 Global
@@ -17,7 +33,14 @@ Global
 		{5327EADF-D7FE-45C0-8422-35EEB411D073}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5327EADF-D7FE-45C0-8422-35EEB411D073}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5327EADF-D7FE-45C0-8422-35EEB411D073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A14B634-FE32-4A77-AFC7-476D2BC67D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A14B634-FE32-4A77-AFC7-476D2BC67D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A14B634-FE32-4A77-AFC7-476D2BC67D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A14B634-FE32-4A77-AFC7-476D2BC67D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{A340D4E5-37FF-4E43-A77A-419FB3404902} = {2086D48C-E2CD-4B1E-8BA5-3956BC9F6D89}
+		{6D4F80ED-67B6-4601-A623-66771092867E} = {A340D4E5-37FF-4E43-A77A-419FB3404902}
+		{9BB5B098-7A9C-4B76-99B9-F49012776576} = {6D4F80ED-67B6-4601-A623-66771092867E}
 	EndGlobalSection
 EndGlobal

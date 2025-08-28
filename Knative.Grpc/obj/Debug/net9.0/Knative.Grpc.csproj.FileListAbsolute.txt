@@ -34,3 +34,4 @@ D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\obj\Debug\net9.0\refint\K
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\obj\Debug\net9.0\Knative.Grpc.pdb
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\obj\Debug\net9.0\Knative.Grpc.genruntimeconfig.cache
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\obj\Debug\net9.0\ref\Knative.Grpc.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\obj\Debug\net9.0\Knative.Grpc.sourcelink.json

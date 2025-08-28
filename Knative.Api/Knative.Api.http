@@ -1,0 +1,6 @@
+@Knative.Api_HostAddress = http://localhost:5179
+
+GET {{Knative.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
