@@ -31,3 +31,7 @@ D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\obj\Debug\net9.0\refint\Kn
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\obj\Debug\net9.0\Knative.Api.pdb
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\obj\Debug\net9.0\Knative.Api.genruntimeconfig.cache
 D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\obj\Debug\net9.0\ref\Knative.Api.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\bin\Debug\net9.0\Google.Protobuf.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\bin\Debug\net9.0\Grpc.Core.Api.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\bin\Debug\net9.0\Grpc.Net.Client.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Api\bin\Debug\net9.0\Grpc.Net.Common.dll

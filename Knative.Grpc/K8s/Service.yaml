@@ -7,12 +7,13 @@ spec:
   template:
     metadata:
       annotations:
+        autoscaling.knative.dev/min-scale: "1"
         autoscaling.knative.dev/max-scale: "10"
         autoscaling.knative.dev/target: "100"
-        autoscaling.knative.dev/scale-down-delay: "3m"
-        autoscaling.knative.dev/scale-to-zero-pod-retention-period: "4m"
+        autoscaling.knative.dev/scale-down-delay: "30s"
+        autoscaling.knative.dev/scale-to-zero-pod-retention-period: "1m"
         autoscaling.knative.dev/metric: "rps"
-        protocol.knative.dev/network-hash: "enabled"
+#        protocol.knative.dev/network-hash: "enabled"
     spec:
       containers:
         - image: reswin/knative.grpc:latest

@@ -7,16 +7,17 @@ spec:
   template:
     metadata:
       annotations:
+        autoscaling.knative.dev/min-scale: "1"
         autoscaling.knative.dev/max-scale: "10"
         autoscaling.knative.dev/target: "50"
         autoscaling.knative.dev/scale-down-delay: "30s"
         autoscaling.knative.dev/scale-to-zero-pod-retention-period: "1m"
         autoscaling.knative.dev/metric: "rps"
-        protocol.knative.dev/network-hash: "enabled"
-        features.knative.dev/http-full-duplex: "Enabled"
+#        protocol.knative.dev/network-hash: "enabled"
+#        features.knative.dev/http-full-duplex: "Enabled"
     spec:
       containers:
-        - image: reswin/knative-api:latest
+        - image: reswin/knative.api:latest
           ports:
             - containerPort: 8080
               name: http1

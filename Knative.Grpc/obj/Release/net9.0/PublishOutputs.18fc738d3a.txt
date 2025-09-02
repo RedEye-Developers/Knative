@@ -1,0 +1,14 @@
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Knative.Grpc.exe
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\appsettings.Development.json
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\appsettings.json
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Knative.Grpc.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Knative.Grpc.deps.json
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Knative.Grpc.runtimeconfig.json
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Knative.Grpc.pdb
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Google.Protobuf.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.AspNetCore.Server.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.Core.Api.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.Net.Client.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.Net.ClientFactory.dll
+D:\Others\DevProjects\CS-Projects\Knative\Knative.Grpc\bin\Release\net9.0\publish\Grpc.Net.Common.dll

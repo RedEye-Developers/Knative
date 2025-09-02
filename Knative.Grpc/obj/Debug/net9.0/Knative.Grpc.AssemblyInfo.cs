@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Knative.Grpc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+996a96911761a0dabf5fa0b2f9cc342bc6e1c75a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15741d185a6350ac6de27de1ce899265315185eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Knative.Grpc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Knative.Grpc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
